@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(npx create-next-app:*)",
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --app --no-src-dir --import-alias \"@/*\" --eslint)",
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --app --no-src-dir --import-alias \"@/*\" --eslint --turbopack)",
+      "Bash(cargo init:*)",
+      "Bash(docker-compose:*)",
+      "Bash(uv:*)",
+      "Bash(bun:*)",
+      "Bash(source:*)",
+      "Bash(pkill:*)",
+      "Bash(python:*)",
+      "Bash(cargo run:*)",
+      "Bash(curl:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
